@@ -1,14 +1,11 @@
 {
-    "name": "slim/slim-skeleton",
-    "description": "A Slim Framework skeleton application for rapid development",
-    "keywords": ["microframework", "rest", "router", "psr7"],
-    "homepage": "http://github.com/slimphp/Slim-Skeleton",
-    "license": "MIT",
+    "name": "FE-Website",
+    "description": "Official website for 'Pokémon Forêt Eternelle' project.",
+    "homepage": "https://github.com/FinalArt/FE-Website",
     "authors": [
         {
-            "name": "Josh Lockhart",
-            "email": "info@joshlockhart.com",
-            "homepage": "http://www.joshlockhart.com/"
+            "name": "FinalArt",
+            "email": "finalart.mail@gmail.com"
         }
     ],
     "require": {
