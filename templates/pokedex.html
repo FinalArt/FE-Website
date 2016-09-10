@@ -1,0 +1,10 @@
+{% include 'fragments/header.html' %}
+{% include 'fragments/navbar.html' %}
+
+<h1>This is the Pokedex !</h1>
+
+{% for pokemon in pokemons %}
+    {% if pokemon.show %} <li>{{ pokemon.name }}</li> {% endif %}
+{% endfor %}
+
+{% include 'fragments/footer.html' %}

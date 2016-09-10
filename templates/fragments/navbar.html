@@ -1,0 +1,45 @@
+<div class="ui inverted stackable menu">
+
+    <div class="header item">
+        Pokémon Forêt Éternelle
+    </div>
+    <a class="{% if navbarCurrentItem == 'index' %} active {% endif %} item" href="/">
+        Accueil
+    </a>
+    <a class="item">
+        Présentation
+    </a>
+    <a class="{% if navbarCurrentItem == 'pokedex' %} active {% endif %} item" href="/pokedex">
+        Pokédex
+    </a>
+    <a class="item">
+        Monde
+    </a>
+    <a class="item">
+        Images
+    </a>
+    <a class="item">
+        Vidéos
+    </a>
+    <div class="right menu">
+        <a class="green item">
+            <div class="ui green button">Télécharger</div>
+        </a>
+        <a class="item">
+            Crédits
+        </a>
+        <a class="item">
+            Nous suivre
+        </a>
+        <a class="item">
+            Déclarer un bug
+        </a>
+        <div class="ui inverted dropdown item">
+            Langue <i class="dropdown icon"></i>
+            <div class="menu">
+                <a class="item">Français</a>
+                <a class="item">English</a>
+            </div>
+        </div>
+    </div>
+</div>

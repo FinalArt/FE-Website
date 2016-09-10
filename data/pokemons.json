@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Pokémon1",
+    "show": true
+  },
+  {
+    "id": 2,
+    "name": "Pokémon2",
+    "show": true
+  },
+  {
+    "id": 3,
+    "name": "Pokémon3",
+    "show": true
+  },
+  {
+    "id": 4,
+    "name": "Pokémon4",
+    "show": false
+  }
+]
