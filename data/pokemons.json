@@ -1,22 +1,107 @@
 [
   {
     "id": 1,
-    "name": "Pokémon1",
-    "show": true
+    "name": "Bulbizarre",
+    "show": true,
+    "type1": "Grass",
+    "type2": "Poison"
   },
   {
     "id": 2,
-    "name": "Pokémon2",
-    "show": true
+    "name": "Herbizarre",
+    "show": false,
+    "type1": "Grass",
+    "type2": "Poison"
   },
   {
     "id": 3,
-    "name": "Pokémon3",
-    "show": true
+    "name": "Florizarre",
+    "show": false,
+    "type1": "Grass",
+    "type2": "Poison"
   },
   {
     "id": 4,
-    "name": "Pokémon4",
-    "show": false
+    "name": "Salamèche",
+    "show": true,
+    "type1": "Fire",
+    "type2": ""
+  },
+  {
+    "id": 5,
+    "name": "Reptincel",
+    "show": false,
+    "type1": "Fire",
+    "type2": ""
+  },
+  {
+    "id": 6,
+    "name": "Dracaufeu",
+    "show": false,
+    "type1": "Fire",
+    "type2": "Flying"
+  },
+  {
+    "id": 7,
+    "name": "Carapuce",
+    "show": true,
+    "type1": "Water",
+    "type2": ""
+  },
+  {
+    "id": 8,
+    "name": "Carabaffe",
+    "show": false,
+    "type1": "Water",
+    "type2": ""
+  },
+  {
+    "id": 9,
+    "name": "Tortank",
+    "show": false,
+    "type1": "Water",
+    "type2": ""
+  },
+  {
+    "id": 10,
+    "name": "Chenipan",
+    "show": true,
+    "type1": "Bug",
+    "type2": ""
+  },
+  {
+    "id": 11,
+    "name": "Chrysacier",
+    "show": true,
+    "type1": "Bug",
+    "type2": ""
+  },
+  {
+    "id": 12,
+    "name": "Papilusion",
+    "show": true,
+    "type1": "Bug",
+    "type2": "Flying"
+  },
+  {
+    "id": 13,
+    "name": "Aspicot",
+    "show": true,
+    "type1": "Bug",
+    "type2": "Poison"
+  },
+  {
+    "id": 14,
+    "name": "Coconfort",
+    "show": true,
+    "type1": "Bug",
+    "type2": "Poison"
+  },
+  {
+    "id": 15,
+    "name": "Dardargnan",
+    "show": true,
+    "type1": "Bug",
+    "type2": "Poison"
   }
 ]

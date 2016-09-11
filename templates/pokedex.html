@@ -1,10 +1,31 @@
 {% include 'fragments/header.html' %}
 {% include 'fragments/navbar.html' %}
 
-<h1>This is the Pokedex !</h1>
-
-{% for pokemon in pokemons %}
-    {% if pokemon.show %} <li>{{ pokemon.name }}</li> {% endif %}
-{% endfor %}
+<div class="ui container">
+    <h1>All the pokemons !</h1>
+    <div class="ui four special stackable cards">
+        {% for pokemon in pokemons %}
+        {% if pokemon.show %}
+        <div class="card">
+            <div class="ui fluid blurring dimmable image">
+                <div class="ui inverted dimmer">
+                    <div class="content">
+                        <div class="center">
+                            <div class="ui green button">
+                                {{ pokemon.name }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui {{ pokemon.type1|typeToColor }} ribbon label">
+                    #{{ pokemon.id }}
+                </div>
+                <img src="img/pokemon/{{ pokemon.id }}.png">
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
 
 {% include 'fragments/footer.html' %}
