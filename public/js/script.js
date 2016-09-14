@@ -3,7 +3,8 @@ $('.ui.dropdown')
     .dropdown()
 ;
 
-// To hover cards
-$('.special.cards .image').dimmer({
-    on: 'hover'
+// To hover pokemon
+$('.pokemon.grid .image').dimmer({
+    on: 'hover',
+    opacity: 0
 });

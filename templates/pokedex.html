@@ -2,25 +2,33 @@
 {% include 'fragments/navbar.html' %}
 
 <div class="ui container">
-    <h1>All the pokemons !</h1>
-    <div class="ui four special stackable cards">
+    <h1>La liste de tous les pokémons</h1>
+    <div class="ui four column stackable pokemon grid">
         {% for pokemon in pokemons %}
         {% if pokemon.show %}
-        <div class="card">
-            <div class="ui fluid blurring dimmable image">
-                <div class="ui inverted dimmer">
-                    <div class="content">
-                        <div class="center">
-                            <div class="ui green button">
-                                {{ pokemon.name }}
+        <div class="column">
+            <div class="ui tertiary inverted {{ pokemon.type1|typeToColor }} {{ pokemon.new ? 'raised' : '' }} segment">
+                <div class="ui black ribbon label">
+                    #{{pokemon.id}} - {{ pokemon.name }}
+                </div>
+                {% if pokemon.new %}
+                <div class="ui green label">
+                    <i class="announcement icon"></i>
+                    New !
+                </div>
+                {% endif %}
+                <div class="ui fluid blurring dimmable image">
+                    <div class="ui inverted dimmer">
+                        <div class="content">
+                            <div class="center">
+                                <div class="ui green button">
+                                    Voir la fiche
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <img src="img/pokemon/{{ pokemon.id }}.png">
                 </div>
-                <div class="ui {{ pokemon.type1|typeToColor }} ribbon label">
-                    #{{ pokemon.id }}
-                </div>
-                <img src="img/pokemon/{{ pokemon.id }}.png">
             </div>
         </div>
         {% endif %}
