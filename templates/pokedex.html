@@ -12,10 +12,9 @@
                     #{{pokemon.id}} - {{ pokemon.name }}
                 </div>
                 {% if pokemon.new %}
-                <div class="ui green label">
-                    <i class="announcement icon"></i>
-                    New !
-                </div>
+                <a class="ui green right corner label">
+                    <i class="warning circle icon"></i>
+                </a>
                 {% endif %}
                 <div class="ui fluid blurring dimmable image">
                     <div class="ui inverted dimmer">
