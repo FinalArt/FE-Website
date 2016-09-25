@@ -610,11 +610,11 @@ h1, h2, h3, h4, h5, h6 {
   transform: scale(1.1);
 }
 
-#custom-parts, #custom-testimonials, #custom-funFacts, #custom-grid, #custom-contact, #custom-people {
+#custom-parts, #custom-reviews, #custom-funFacts, #custom-grid, #custom-contact, #custom-people {
   padding: 4em 0;
 }
 @media screen and (max-width: 768px) {
-  #custom-parts, #custom-testimonials, #custom-funFacts, #custom-grid, #custom-contact, #custom-people {
+  #custom-parts, #custom-reviews, #custom-funFacts, #custom-grid, #custom-contact, #custom-people {
     padding: 2em 0;
   }
 }
@@ -783,18 +783,18 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-#custom-testimonials .box-testimony {
+#custom-reviews .box-testimony {
   margin-bottom: 2em;
   float: left;
 }
-#custom-testimonials .box-testimony a {
+#custom-reviews .box-testimony a {
   color: rgba(255, 255, 255, 0.5);
 }
-#custom-testimonials .box-testimony a:hover, #custom-testimonials .box-testimony a:focus, #custom-testimonials .box-testimony a:active {
+#custom-reviews .box-testimony a:hover, #custom-reviews .box-testimony a:focus, #custom-reviews .box-testimony a:active {
   color: white;
   text-decoration: none;
 }
-#custom-testimonials .box-testimony blockquote {
+#custom-reviews .box-testimony blockquote {
   padding-left: 0;
   border-left: none;
   padding: 30px;
@@ -808,7 +808,7 @@ h1, h2, h3, h4, h5, h6 {
   -ms-border-radius: 7px;
   border-radius: 7px;
 }
-#custom-testimonials .box-testimony blockquote:after {
+#custom-reviews .box-testimony blockquote:after {
   content: "";
   position: absolute;
   top: 100%;
@@ -819,39 +819,39 @@ h1, h2, h3, h4, h5, h6 {
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
 }
-#custom-testimonials .box-testimony blockquote p {
+#custom-reviews .box-testimony blockquote p {
   font-style: italic;
   color: #fff;
 }
-#custom-testimonials .box-testimony .author {
+#custom-reviews .box-testimony .author {
   line-height: 20px;
   color: black;
   font-size: 16px;
   margin-left: 20px;
   font-weight: 400;
 }
-#custom-testimonials .box-testimony .author a {
+#custom-reviews .box-testimony .author a {
   color: #329998;
 }
-#custom-testimonials .box-testimony .author a:hover {
+#custom-reviews .box-testimony .author a:hover {
   text-decoration: underline;
 }
-#custom-testimonials .box-testimony .author > figure {
+#custom-reviews .box-testimony .author > figure {
   float: left;
   margin-right: 10px;
 }
-#custom-testimonials .box-testimony .author > figure img {
+#custom-reviews .box-testimony .author > figure img {
   width: 60px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-#custom-testimonials .box-testimony .author p {
+#custom-reviews .box-testimony .author p {
   float: left;
   margin-top: 10px;
 }
-#custom-testimonials .box-testimony .author .subtext {
+#custom-reviews .box-testimony .author .subtext {
   display: block;
   color: rgba(0, 0, 0, 0.5);
   font-size: 16px;

@@ -4,12 +4,20 @@
 $app->get('/', function ($request, $response, $args) {
     $this->logger->info("Slim-Skeleton '/' route");
     return $this->view->render($response, 'index.html', [
-        "navbarCurrentItem" => "index"
+        "lang" => Helpers\Translator::DEFAULT_LANG
+    ]);
+});
+
+// Homepage of the website with a specific language
+$app->get('/{lang}', function ($request, $response, $args) {
+    $this->logger->info("Slim-Skeleton '/' route");
+    return $this->view->render($response, 'index.html', [
+        "lang" => Helpers\Translator::check($request->getAttribute("lang"))
     ]);
 });
 
 // Pokedex containing all pokemon showable
-$app->get('/pokedex', function ($request, $response, $args) {
+$app->get('/api/pokedex', function ($request, $response, $args) {
     $this->logger->info("Slim-Skeleton '/' route");
 
     $fileName = __DIR__ . '/../data/pokemons.json';

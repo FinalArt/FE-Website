@@ -160,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
 #custom-header .navbar-brand {
   float: left;
   display: block;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   padding-left: 0;
   color: #fff;
@@ -282,7 +282,7 @@ h1, h2, h3, h4, h5, h6 {
 #custom-our-services,
 #custom-people-us,
 #custom-features,
-#custom-testimonials,
+#custom-reviews,
 #custom-pricing,
 #custom-press {
   padding: 7em 0;
@@ -291,37 +291,37 @@ h1, h2, h3, h4, h5, h6 {
   #custom-our-services,
   #custom-people-us,
   #custom-features,
-  #custom-testimonials,
+  #custom-reviews,
   #custom-pricing,
   #custom-press {
     padding: 5em 0;
   }
 }
 
-#custom-testimonials {
+#custom-reviews {
   background: #2185d5;
 }
-#custom-testimonials .section-heading h2 {
+#custom-reviews .section-heading h2 {
   color: white;
 }
-#custom-testimonials .section-heading h2:after {
+#custom-reviews .section-heading h2:after {
   background: rgba(255, 255, 255, 0.2);
 }
-#custom-testimonials .section-heading .subtext h3 {
+#custom-reviews .section-heading .subtext h3 {
   color: rgba(255, 255, 255, 0.5);
 }
-#custom-testimonials .box-testimony {
+#custom-reviews .box-testimony {
   margin-bottom: 2em;
   float: left;
 }
-#custom-testimonials .box-testimony a {
+#custom-reviews .box-testimony a {
   color: rgba(255, 255, 255, 0.5);
 }
-#custom-testimonials .box-testimony a:hover, #custom-testimonials .box-testimony a:focus, #custom-testimonials .box-testimony a:active {
+#custom-reviews .box-testimony a:hover, #custom-reviews .box-testimony a:focus, #custom-reviews .box-testimony a:active {
   color: white;
   text-decoration: none;
 }
-#custom-testimonials .box-testimony blockquote {
+#custom-reviews .box-testimony blockquote {
   padding-left: 0;
   border-left: none;
   padding: 40px;
@@ -332,7 +332,7 @@ h1, h2, h3, h4, h5, h6 {
   -ms-border-radius: 4px;
   border-radius: 4px;
 }
-#custom-testimonials .box-testimony blockquote:after {
+#custom-reviews .box-testimony blockquote:after {
   content: "";
   position: absolute;
   top: 100%;
@@ -342,7 +342,7 @@ h1, h2, h3, h4, h5, h6 {
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
 }
-#custom-testimonials .box-testimony blockquote .quote {
+#custom-reviews .box-testimony blockquote .quote {
   position: absolute;
   top: 0;
   left: 10px;
@@ -360,20 +360,20 @@ h1, h2, h3, h4, h5, h6 {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-#custom-testimonials .box-testimony blockquote .quote > span {
+#custom-reviews .box-testimony blockquote .quote > span {
   display: table-cell;
   vertical-align: middle;
 }
-#custom-testimonials .box-testimony blockquote p {
+#custom-reviews .box-testimony blockquote p {
   font-style: italic;
 }
-#custom-testimonials .box-testimony .author {
+#custom-reviews .box-testimony .author {
   line-height: 20px;
   color: white;
   font-size: 20px;
   margin-left: 20px;
 }
-#custom-testimonials .box-testimony .author .subtext {
+#custom-reviews .box-testimony .author .subtext {
   display: block;
   color: rgba(255, 255, 255, 0.5);
   font-size: 16px;

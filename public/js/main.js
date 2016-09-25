@@ -238,7 +238,7 @@
 
 
 	var testimonialAnimate = function() {
-		var testimonial = $('#custom-testimonials');
+		var testimonial = $('#custom-reviews');
 		if ( testimonial.length > 0 ) {	
 
 			testimonial.waypoint( function( direction ) {
